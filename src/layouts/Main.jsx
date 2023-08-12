@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-// import { Outlet } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
 import Footer from '../components/Footer'
 
 function Main() {
   return (
-	<div>
+	<div className='font-serif'>
         <Navbar />
-        {/* <Outlet /> */}
+        <Outlet />
         <Footer />
     </div>
   )
