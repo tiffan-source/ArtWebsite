@@ -8,7 +8,8 @@ module.exports = {
       },
       colors: {
         'primary': '#333',
-        'secondary':'#8C8C8C'
+        'secondary':'#8C8C8C',
+        'tertiary': '#E0E0E0'
       },
       backgroundImage: {
         'header-cover': "url('/src/assets/images/headerimage.svg')",
