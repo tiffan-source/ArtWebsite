@@ -49,7 +49,7 @@ function Navbar() {
             <a href="#contact" className='block m-2'>Contact</a>
           </div>
           <span className='text-white text-xl' onClick={changeTextColor}>
-            {currentclip == 0 ? <FontAwesomeIcon icon={faBars} className='transition-all duration-200 ease-linear' /> : <FontAwesomeIcon icon={faXmark} className='transition-all duration-200 ease-linear rotate-180' />}
+            {currentclip === 0 ? <FontAwesomeIcon icon={faBars} className='transition-all duration-200 ease-linear' /> : <FontAwesomeIcon icon={faXmark} className='transition-all duration-200 ease-linear rotate-180' />}
           </span>
         </div>
       </nav>

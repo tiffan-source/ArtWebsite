@@ -8,9 +8,19 @@ module.exports = {
       },
       colors: {
         'primary': '#333',
+        'secondary':'#8C8C8C'
       },
       backgroundImage: {
         'header-cover': "url('/src/assets/images/headerimage.svg')",
+      },
+      flexBasis: {
+        'default':'40rem'
+      },
+      maxWidth: {
+        '6xl2': '1200px'
+      },
+      borderWidth: {
+        '1': '1px'
       }
     },
   },
