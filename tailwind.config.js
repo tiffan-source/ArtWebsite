@@ -12,6 +12,7 @@ module.exports = {
       },
       backgroundImage: {
         'header-cover': "url('/src/assets/images/headerimage.svg')",
+        'contact-cover': "url('/src/assets/images/contact.svg')"
       },
       flexBasis: {
         'default':'40rem'

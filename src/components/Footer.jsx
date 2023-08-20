@@ -7,7 +7,7 @@ import whatsApp from '../assets/icons/whatsapp.svg';
 
 function Footer() {
   return (
-    <footer className='bg-slate-800'>
+    <footer className='bg-primary'>
       <section className='flex justify-between items-center relative py-6 px-10'>
         <a href="#home" className="logo"><img src={logoImage} alt="" className='h-10' /></a>
         <div className='max-w-xs text-white text-center'>
