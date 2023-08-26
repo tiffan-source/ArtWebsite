@@ -13,7 +13,8 @@ module.exports = {
       },
       backgroundImage: {
         'header-cover': "url('/src/assets/images/headerimage.svg')",
-        'contact-cover': "url('/src/assets/images/contact.svg')"
+        'contact-cover': "url('/src/assets/images/contact.svg')",
+        'artist-cover': "url('/src/assets/images/ourArtist.svg')"
       },
       flexBasis: {
         'default':'40rem'
@@ -23,6 +24,9 @@ module.exports = {
       },
       borderWidth: {
         '1': '1px'
+      },
+      gridTemplateColumns: {
+        'gallery': 'repeat(auto-fit, 25rem)'
       }
     },
   },
