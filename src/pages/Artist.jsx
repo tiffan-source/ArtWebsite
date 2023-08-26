@@ -4,10 +4,9 @@ import HeaderNd from '../components/artist/HeaderNd'
 import ArtistGallery from '../components/artist/ArtisGallery'
 
 function Artist() {
-    const title = "Our Artist";
     return (
         <div>
-            <HeaderNd title={title} />
+            <HeaderNd title={"Our Artist"} bgc={"bg-artist-cover"} />
             <ArtistGallery />
             <Contact />
         </div>

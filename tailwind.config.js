@@ -14,7 +14,8 @@ module.exports = {
       backgroundImage: {
         'header-cover': "url('/src/assets/images/headerimage.svg')",
         'contact-cover': "url('/src/assets/images/contact.svg')",
-        'artist-cover': "url('/src/assets/images/ourArtist.svg')"
+        'artist-cover': "url('/src/assets/images/ourArtist.svg')",
+        'discover-cover': "url('/src/assets/images/discover.svg')"
       },
       flexBasis: {
         'default':'40rem'
