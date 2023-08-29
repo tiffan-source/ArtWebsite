@@ -3,7 +3,7 @@ import painting1 from '../../assets/images/painting1.svg';
 
 function PaintingList() {
     return (
-        <div className='flex gap-x-20 justify-center my-6'>
+        <div className='flex gap-x-20 justify-center mt-14 mb-20'>
             <div className='flex flex-col gap-y-6 max-w-max'>
                 <div className='font-bold text-2xl'>Type Art</div>
                 <div className='w-full h-1 bg-primary'></div>
