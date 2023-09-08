@@ -3,6 +3,7 @@ import Contact from '../components/Contact'
 import HeaderNd from '../components/artist/HeaderNd'
 import PaintingList from '../components/artist/PaintingList'
 import Description from '../components/artist/Description'
+import OtherBoardList from '../components/artist/OtherBoardList'
 
 
 function Discover() {
@@ -11,6 +12,7 @@ function Discover() {
             <HeaderNd title={"Discvoer more than art an artiste"} bgc={"bg-discover-cover"} />
             <PaintingList />
             <Description />
+            <OtherBoardList />
             <Contact />
         </div>
     )
