@@ -16,7 +16,7 @@ function Navbar() {
   };
   return (
     <>
-      <nav className='absolute top-0 left-0 container mx-auto py-4 z-10'>
+      <nav className='absolute top-0 left-0 container mx-auto py-4 z-10 2md:hidden'>
         <div className='flex justify-between items-center'>
           <a href="#home">
             <img src={logoImage} alt="My Logo" />

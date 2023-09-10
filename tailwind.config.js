@@ -28,6 +28,9 @@ module.exports = {
       },
       gridTemplateColumns: {
         'gallery': 'repeat(auto-fit, 25rem)'
+      },
+      screens: {
+        '2md' : {'max': '767px'}
       }
     },
   },

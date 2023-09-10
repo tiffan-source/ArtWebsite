@@ -7,11 +7,11 @@ import Events from '../components/home/Events'
 function Home() {
   return (
     <div>
-        <Header/>
-        <div className='text-center text-xl text-secondary mt-5'>Current  Exhibition</div>
-        <Exposure/>
-        <Events/>
-        <Contact/>
+      <Header />
+      <div className='text-center text-xl text-secondary my-5 md:mb-0'>Current  Exhibition</div>
+      <Exposure />
+      <Events />
+      <Contact />
     </div>
   )
 }

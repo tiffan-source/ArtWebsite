@@ -7,24 +7,24 @@ import ExposureDescription from './ExposureDescription'
 function Exposure() {
     return (
         <div className='flex flex-col'>
-            <div className='flex items-center gap-16 py-12 px-8 max-w-6xl2 my-0 mx-auto'>
+            <div className='flex items-center flex-col gap-16 max-w-6xl2 mb-16 mx-5 md:mx-auto md:flex-row md:py-12 md:px-8 md:mb-0'>
                 <ExposureDescription />
 
-                <div className='grow shrink basis-default'><img src={firstExpo} alt="" className='w-full' /></div>
+                <div className='md:grow md:shrink md:basis-default -order-1 md:order-1'><img src={firstExpo} alt="" className='w-full' /></div>
             </div>
 
 
-            <div className='flex items-center gap-16 py-12 px-8 max-w-6xl2 my-0 mx-auto'>
-                <div className='grow shrink basis-default'><img src={secondExpo} alt="" className='w-full' /></div>
+            <div className='flex items-center flex-col gap-16 max-w-6xl2 mb-16 my-0 mx-5 md:mx-auto md:flex-row md:py-12 md:px-8 md:mb-0'>
+                <div className='md:grow md:shrink md:basis-default'><img src={secondExpo} alt="" className='w-full' /></div>
                 <ExposureDescription />
             </div>
 
 
 
-            <div className='flex items-center gap-16 py-12 px-8 max-w-6xl2 my-0 mx-auto'>
+            <div className='flex items-center flex-col gap-16 max-w-6xl2 mb-16 mx-5 md:mx-auto md:flex-row md:py-12 md:px-8 md:mb-0'>
                 <ExposureDescription />
 
-                <div className='grow shrink basis-default'><img src={thirdExpo} alt="" className='w-full' /></div>
+                <div className='md:grow md:shrink md:basis-default -order-1 md:order-1'><img src={thirdExpo} alt="" className='w-full' /></div>
             </div>
         </div>
 
