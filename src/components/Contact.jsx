@@ -4,7 +4,7 @@ function Contact() {
     return (
         <div className='min-h-[calc(100vh-10rem)] bg-contact-cover relative flex flex-col justify-center z-0 text-white gap-y-12'>
             {/* <div className='absolute top-0 left-0 w-full h-full bg-[#000a]'></div> */}
-            <p className='text-center text-3xl font-bold 2md:mt-6'>CONTACT</p>
+            <p className='text-center text-3xl font-bold mt-6'>CONTACT</p>
             <div>
                 <div className='flex items-center flex-col gap-16 max-w-6xl2 mb-16 mx-5 md:mx-auto md:flex-row md:py-12 md:px-4 md:mb-0'>
                     <div className='flex flex-col gap-y-6 md:grow md:shrink md:basis-default 2md:self-start'>
