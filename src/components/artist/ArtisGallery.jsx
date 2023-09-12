@@ -8,8 +8,8 @@ import artist6 from '../../assets/images/artist6.svg';
 
 function ArtistGallery() {
     return (
-        <div className='py-12 px-8 my-0 mx-auto'>
-            <div className="grid grid-cols-gallery gap-6 justify-center">
+        <div className='py-12 px-4 my-0 mx-auto md:px-8'>
+            <div className="grid gap-6 justify-center md:grid-cols-gallery">
                 <img src={artist1} alt="" className='object-cover w-full h-full' />
                 <img src={artist2} alt="" className='object-cover w-full h-full' />
                 <img src={artist3} alt="" className='object-cover w-full h-full' />
