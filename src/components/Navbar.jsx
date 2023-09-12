@@ -16,12 +16,12 @@ function Navbar() {
   };
   return (
     <>
-      <nav className='absolute top-0 left-0 container mx-auto py-4 z-10 2md:hidden'>
+      <nav className='absolute top-0 w-screen px-4 py-4 z-10 2md:hidden'>
         <div className='flex justify-between items-center'>
           <a href="#home">
             <img src={logoImage} alt="My Logo" />
           </a>
-          <ul className='flex gap-6'>
+          <ul className='flex gap-6 text-white'>
             <li>
               <a href="#home" className=''>Home</a>
             </li>
