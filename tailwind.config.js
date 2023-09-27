@@ -9,7 +9,10 @@ module.exports = {
       colors: {
         'primary': '#333',
         'secondary':'#8C8C8C',
-        'tertiary': '#E0E0E0'
+        'tertiary': '#E0E0E0',
+        'painting1': '#daa886',
+        'painting2': '#582e18',
+        
       },
       backgroundImage: {
         'header-cover': "url('/src/assets/images/headerimage.svg')",
@@ -30,7 +33,8 @@ module.exports = {
         'gallery': 'repeat(auto-fit, 25rem)'
       },
       screens: {
-        '2md' : {'max': '767px'}
+        '2md' : {'max': '767px'},
+        '2sm' : {'max': '640px'}
       }
     },
   },

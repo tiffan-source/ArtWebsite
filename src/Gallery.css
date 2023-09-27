@@ -1,0 +1,4 @@
+.mycontainer:hover>.mycard {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
