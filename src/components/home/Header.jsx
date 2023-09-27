@@ -11,7 +11,7 @@ function Header() {
             <p className='max-w-[50rem]'>
                 Explorez un univers d'émotions figées dans chaque toile, où l'art s'exprime avec passion et où les histoires prennent vie. Notre galerie vous ouvre les portes d'une expérience artistique unique, où la créativité rencontre l'âme.
             </p>
-            <span>
+            <span className='animate-bounce'>
                 <FontAwesomeIcon icon={faArrowDown}/>
             </span>
         </div>

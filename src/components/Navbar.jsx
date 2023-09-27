@@ -41,7 +41,7 @@ function Navbar() {
 
       <nav className='absolute left-0 right-0 z-10 md:hidden'>
         <div className='flex justify-between items-center relative my-0 mx-auto py-6 px-4'>
-          <a href="#home" className="logo"><img src={logoImage} alt="" className='h-4' /></a>
+          <a href="#home" className="logo"><img src={logoImage} alt="" className='h-7' /></a>
           <div className={`absolute bg-white text-primary top-3/4 left-0 right-0 border-solid border-y-2 border-y-primary transition-all duration-200 ease-linear ${clip[currentclip]}`}>
             <a href="#home" className='block m-2'>Home</a>
             <a href="#gallery" className='block m-2'>Gallery</a>
