@@ -16,6 +16,7 @@ function Discover() {
             <Contact />
         </div>
     )
+    
 }
 
 export default Discover
