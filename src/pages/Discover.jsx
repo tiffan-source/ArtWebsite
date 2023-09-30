@@ -12,7 +12,7 @@ function Discover() {
             <HeaderNd title={"Discvoer more than art an artiste"} bgc={"bg-discover-cover"} />
             <PaintingList />
             <Description />
-            {/* <OtherBoardList /> */}
+            <OtherBoardList />
             <Contact />
         </div>
     )

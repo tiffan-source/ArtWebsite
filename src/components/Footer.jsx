@@ -14,10 +14,10 @@ function Footer() {
           <p>Lorem ipsum dolor sit amet consectetur. Dolor orci egestas aliquam sed nibh. Sed in tempus sed posuere.</p>
         </div>
         <div className='flex justify-between items-center w-60 2md:self-start'>
-          <a href="#menu" className=''><img src={facebook} alt=""/></a>
-          <a href="#gallery" className=''><img src={twitter} alt=""/></a>
-          <a href="#team" className=''><img src={insta} alt=""/></a>
-          <a href="#contact" className=''><img src={whatsApp} alt=""/></a>
+          <a href="#menu" className='w-6'><img src={facebook} alt=""/></a>
+          <a href="#gallery" className='w-6'><img src={twitter} alt=""/></a>
+          <a href="#team" className='w-6'><img src={insta} alt=""/></a>
+          <a href="#contact" className='w-6'><img src={whatsApp} alt=""/></a>
         </div>
       </section>
     </footer>

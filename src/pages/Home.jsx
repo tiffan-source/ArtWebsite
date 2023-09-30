@@ -6,9 +6,9 @@ import Events from '../components/home/Events'
 
 function Home() {
   return (
-    <div>
+    <div className='scroll-smooth'>
       <Header />
-      <div className='text-center text-xl text-secondary my-5 md:mb-0'>Current  Exhibition</div>
+      <div className='text-center text-xl text-secondary my-5 md:mb-0' id='start'>Current  Exhibition</div>
       <Exposure />
       <Events />
       <Contact />
