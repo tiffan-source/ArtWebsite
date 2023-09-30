@@ -16,12 +16,12 @@ function Navbar() {
   };
   return (
     <>
-      <nav className='absolute top-0 w-screen px-4 py-4 z-10 2md:hidden'>
+      <nav className='absolute top-0 w-screen px-4 py-4 z-10 2md:hidden container left-1/2 -translate-x-1/2'>
         <div className='flex justify-between items-center'>
           <a href="#home">
             <img src={logoImage} alt="My Logo" />
           </a>
-          <ul className='flex gap-6 text-white'>
+          <ul className='flex gap-12 text-white'>
             <li>
               <a href="#home" className=''>Home</a>
             </li>
@@ -49,7 +49,7 @@ function Navbar() {
             <a href="#contact" className='block m-2'>Contact</a>
           </div>
           <span className='text-white text-xl' onClick={changeTextColor}>
-            {currentclip === 0 ? <FontAwesomeIcon icon={faBars} className='transition-all duration-200 ease-linear' /> : <FontAwesomeIcon icon={faXmark} className='transition-all duration-200 ease-linear rotate-180' />}
+            {currentclip === 0 ? <FontAwesomeIcon icon={faBars} className='transition-all duration-200 ease-linear' /> : <FontAwesomeIcon icon={faXmark} className='transition-all duration-200 ease-linear rotate-180 ' />}
           </span>
         </div>
       </nav>
