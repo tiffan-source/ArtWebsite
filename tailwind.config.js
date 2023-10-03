@@ -18,7 +18,8 @@ module.exports = {
         'header-cover': "url('/src/assets/images/headerimage.svg')",
         'contact-cover': "url('/src/assets/images/contact.svg')",
         'artist-cover': "url('/src/assets/images/ourArtist.svg')",
-        'discover-cover': "url('/src/assets/images/discover.svg')"
+        'discover-cover': "url('/src/assets/images/discover.svg')",
+        'page-contact-cover': "url('/src/assets/images/bgcontact.svg')",
       },
       flexBasis: {
         'default':'40rem'

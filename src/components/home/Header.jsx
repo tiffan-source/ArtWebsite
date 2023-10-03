@@ -12,7 +12,7 @@ function Header() {
                 Explorez un univers d'émotions figées dans chaque toile, où l'art s'exprime avec passion et où les histoires prennent vie. Notre galerie vous ouvre les portes d'une expérience artistique unique, où la créativité rencontre l'âme.
             </p>
             <a className='animate-bounce hover:cursor-pointer scroll-smooth' href='#start'>
-                <FontAwesomeIcon icon={faArrowDown}/>
+                <FontAwesomeIcon icon={faArrowDown} className='h-6'/>
             </a>
         </div>
     </header>

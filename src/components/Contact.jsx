@@ -2,27 +2,27 @@ import React from 'react';
 
 function Contact() {
     return (
-        <div className='min-h-[calc(100vh-10rem)] bg-contact-cover relative flex flex-col justify-center z-0 text-white gap-y-12'>
+        <div className='min-h-[calc(100vh-10rem)] bg-contact-cover bg-no-repeat bg-center bg-cover relative flex flex-col justify-center z-0 text-white gap-y-12'>
             {/* <div className='absolute top-0 left-0 w-full h-full bg-[#000a]'></div> */}
             <p className='text-center text-3xl font-bold mt-6'>CONTACT</p>
             <div>
                 <div className='flex items-center flex-col gap-y-16 max-w-6xl2 mb-16 mx-5 md:mx-auto md:flex-row md:py-12 md:px-4 md:mb-0'>
                     <div className='flex flex-col gap-y-6 md:grow md:shrink md:basis-default 2md:self-start'>
-                        <h2 className='text-2xl font-bold'>The National Gallery</h2>
+                        <h2 className='text-2xl font-bold'>GALLERIE OLIART</h2>
                         <div>
-                            <h2 className='font-bold mb-4'>Address</h2>
+                            <h2 className='font-bold mb-4'>Addresse</h2>
                             <div>
-                                <p>Trafalgar Square</p>
-                                <p>London</p>
-                                <p>WCGN SDN</p>
+                                <p>Cotonou</p>
+                                <p>Agla Rue 1875</p>
+                                <p>+229 90 90 90 90</p>
                             </div>
                         </div>
 
                         <div>
                             <h2 className='text-lg font-bold mb-4'>E-mail</h2>
                             <div>
-                                <p>Trafalgar Square</p>
-                                <p>London</p>
+                                <p>oliart@contact.com</p>
+                                <p>oliart@service.com</p>
                                 <p>WCGN SDN</p>
                             </div>
                         </div>
